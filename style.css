@@ -1,0 +1,50 @@
+/*
+Codigo css: Oscar Cantaro
+Paleta de colores: BAF2BB   BAF2D8  BAD7F2  F2BAC9  F2E2BA
+*/
+body {
+  background-image: linear-gradient(to right, #baf2d8, #bad7f2);
+  font-family: "Nunito", sans-serif;
+}
+header {
+  color: #f2bac9;
+  text-align: center;
+  font-size: 20px;
+  font-family: "Dela Gothic One", sans-serif;
+}
+nav {
+  width: 20%;
+  float: left;
+}
+nav a {
+  text-decoration: none;
+  background-color: #f2bac9;
+  border-radius: 10px 0 10px 0;
+  color: #baf2d8;
+  margin: 10px;
+  padding: 10px;
+  display: block;
+}
+section {
+  float: right;
+  width: 75%;
+  margin-bottom: 15px;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 1px 0 5px rgb(0, 0, 0, 0.2);
+}
+aside {
+  float: right;
+  width: 30%;
+  padding: 5px;
+  margin: 5px;
+  font-style: italic;
+}
+footer {
+  clear: both;
+  padding: 5px;
+  text-align: center;
+}
+footer a {
+  text-decoration: none;
+}
