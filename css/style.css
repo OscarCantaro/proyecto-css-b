@@ -39,6 +39,10 @@ section {
   border-radius: 5px;
   box-shadow: 1px 0 5px rgb(0, 0, 0, 0.2);
 }
+
+.centrar {
+  text-align: center;
+}
 aside {
   float: right;
   width: 30%;
@@ -46,11 +50,20 @@ aside {
   margin: 5px;
   font-style: italic;
 }
+
 footer {
   clear: both;
   padding: 5px;
   text-align: center;
+  background-color: #f2e2ba;
+}
+footer P {
+  color: rgb(63, 62, 62);
 }
 footer a {
   text-decoration: none;
+  color: rgb(63, 62, 62);
+}
+footer a:hover {
+  color: black;
 }
