@@ -69,11 +69,12 @@ footer a:hover {
 }
 
 #modeloCaja {
-  text-align: center;
-  color: #f2bac9;
+  max-width: 500px;
   background-color: #baf2d8;
   padding: 10px;
   border: 20px solid #f2bac9;
-  margin: 30px;
-  outline-offset: 20px;
+/*  margin: 30px;
+  outline: 10px solid #f2e2ba;
+  outline-offset: 10px; */
+  margin: auto;
 }
