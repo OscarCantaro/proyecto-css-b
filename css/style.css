@@ -11,7 +11,7 @@ body {
 header {
   background-color: #f2bac9;
 }
-#titulo {
+h1 {
   font-family: "Dela Gothic One", sans-serif;
   font-size: 44px;
   text-align: center;
@@ -26,10 +26,12 @@ nav a {
   text-decoration: none;
   background-color: #f2bac9;
   border-radius: 10px 0 10px 0;
-  color: #baf2d8;
+  color: #fff;
   margin: 10px;
   padding: 10px;
   display: block;
+  font-size: 24px;
+  font-weight: 700;
 }
 section {
   float: right;
@@ -73,7 +75,7 @@ footer a:hover {
   background-color: #baf2d8;
   padding: 10px;
   border: 20px solid #f2bac9;
-/*  margin: 30px;
+  /*  margin: 30px;
   outline: 10px solid #f2e2ba;
   outline-offset: 10px; */
   margin: auto;
